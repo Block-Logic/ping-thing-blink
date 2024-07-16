@@ -1,3 +1,4 @@
+export const runtime = 'edge' // 'nodejs' (default) | 'edge'
 import {
   ACTIONS_CORS_HEADERS,
   ActionGetResponse,
