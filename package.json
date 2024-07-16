@@ -13,12 +13,10 @@
     "@solana/actions": "^1.0.2",
     "@solana/spl-token": "^0.4.7",
     "@solana/web3.js": "^1.93.1",
-    "actions": "link:@types/@solana/actions",
     "axios": "^1.7.2",
     "next": "14.2.4",
     "react": "^18",
-    "react-dom": "^18",
-    "web3.js": "link:@types/@solana/web3.js"
+    "react-dom": "^18"
   },
   "devDependencies": {
     "@types/node": "^20",
