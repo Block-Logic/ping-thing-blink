@@ -24,7 +24,7 @@ const connection = new Connection(RPC_ENDPOINT, { commitment: "confirmed" });
 
 export const GET = async (req: Request) => {
   const payload: ActionGetResponse = {
-    icon: "https://github.com/Block-Logic/ping-thing-blink/blob/main/public/blinkImage.jpeg",
+    icon: "https://github.com/Block-Logic/ping-thing-blink/blob/main/public/blinkImage.jpeg?raw=true",
     label: "Donate 0.1 SOL to the Ping Thing",
     description: `Ping Thing allows you to check transaction landing latency on Solana`,
     title: "Support the Ping Thing",
