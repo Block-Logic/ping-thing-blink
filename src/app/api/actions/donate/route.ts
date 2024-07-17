@@ -24,7 +24,7 @@ const connection = new Connection(RPC_ENDPOINT, { commitment: "confirmed" });
 
 export const GET = async (req: Request) => {
   const payload: ActionGetResponse = {
-    icon: "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3a/Cat03.jpg/1200px-Cat03.jpg",
+    icon: "https://github.com/Block-Logic/ping-thing-blink/blob/main/public/blinkImage.jpeg",
     label: "Donate 0.1 SOL to the Ping Thing",
     description: `Ping Thing allows you to check transaction landing latency on Solana`,
     title: "Support the Ping Thing",
@@ -36,7 +36,7 @@ export const GET = async (req: Request) => {
         },
         {
           label: "1",
-          href: "/api/actions//donate?amount=1",
+          href: "/api/actions/donate?amount=1",
         },
         {
           label: "3",
