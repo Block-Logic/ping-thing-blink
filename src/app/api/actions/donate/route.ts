@@ -26,7 +26,10 @@ export const GET = async (req: Request) => {
   const payload: ActionGetResponse = {
     icon: "https://github.com/Block-Logic/ping-thing-blink/blob/main/public/blinkImage.png?raw=true",
     label: "Donate 0.1 SOL to the Ping Thing",
-    description: `There once was a tool, quite a thing, Checking Solana's speed with a ping. If you love what you see, Send a tip for the fees, And make our Ping Thing tip jar ring!`,
+    description: `There once was a tool, quite a thing, 
+Checking Solana's speed with a ping.
+If you love what you see, Send a tip for the fees,
+And make our Ping Thing tip jar ring!`,
     title: "Support the Ping Thing",
     links: {
       actions: [
